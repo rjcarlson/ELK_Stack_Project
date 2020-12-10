@@ -7,11 +7,17 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, running select playbook yaml files may be used to install only certain pieces of it, such as Filebeat.
 
 ![DVWA playbook](./Ansible/dvwa-playbook.yml "DVWA Playbook") 
+
 ![ELK playbook](./Ansible/install-elk.yml "ELK Playbook") 
+
 ![Pen Test playbook](./ELK_Stack_Project/Ansible/pentest.yml "Pentration Docker Container Playbook") 
+
 ![Filebeat playbook](./ELK_Stack_Project/Ansible/roles/filebeat-playbook.yml "Filebeat Playbook") 
+
 ![Metricbeat playbook](./ELK_Stack_Project/Ansible/roles/metricbeat-playbook.yml "Metricbeat Playbook") 
+
 ![Filebeat Config file](./ELK_Stack_Project/Ansible/files/filebeat-config.yml "Filebeat Configuration File") 
+
 ![Metricbeat Config file](./ELK_Stack_Project/Ansible/files/metricbeat-config.yml "Metricbeat Configuration File") 
 
 
@@ -49,11 +55,11 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump-box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 
-![Inbound Security Rules](./Diagrams/inbound_security_rules.png “Inbound Security Rules”)
-![Jump Box accessible IP](./Diagrams/jump-box_accessible_IP.png “Jump Box Accessible IP”)
+![Inbound Security Rules](./Diagrams/inbound_security_rules.png "Inbound Security Rules")
+![Jump Box accessible IP](./Diagrams/jump-box_accessible_IP.png "Jump Box Accessible IP")
 
 Machines within the network can only be accessed by my computer via the jump box.
-![Inbound Security Rule for Kibana](./Diagrams/inbound_security_rules_kibana.png “Inbound Security Rule Kibana”)
+![Inbound Security Rule for Kibana](./Diagrams/inbound_security_rules_kibana.png "Inbound Security Rule Kibana")
 
 A summary of the access policies in place can be found in the table below.
 
@@ -78,7 +84,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ELK Docker ps output](./Diagrams/docker_ps_output.png “ELK Docker PS output”)
+![ELK Docker ps output](./Diagrams/docker_ps_output.png "ELK Docker PS output")
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
