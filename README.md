@@ -55,8 +55,8 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump-box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 
-![Inbound Security Rules](./Diagrams/inbound_security_rules.png "Inbound Security Rules")
-![Jump Box accessible IP](./Diagrams/jump-box_accessible_IP.png "Jump Box Accessible IP")
+![Inbound Security Rules](./Diagrams/inbound_security_rules.PNG "Inbound Security Rules")
+![Jump Box accessible IP](./Diagrams/jump-box_accessible_IP.PNG "Jump Box Accessible IP")
 
 Machines within the network can only be accessed by my computer via the jump box.
 ![Inbound Security Rule for Kibana](./Diagrams/inbound_security_rules_kibana.png "Inbound Security Rule Kibana")
