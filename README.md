@@ -2,17 +2,17 @@
 
 The files in this repository were used to configure the network depicted below.
 
-|[Network Diagram](https://github.com/rjcarlson/ELK_Stack_Project/Diagrams/Project_1_Network_diagram_20201202.png "ELK Stack Network Diagram”)
+![Network Diagram](./Diagrams/Project_1_Network_diagram_20201202.png "ELK Stack Network Diagram”)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, running select playbook yaml files may be used to install only certain pieces of it, such as Filebeat.
 
-![DVWA playbook](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/dvwa-playbook.yml “DVWA Playbook”) 
-![ELK playbook](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/install-elk.yml “ELK Playbook”) 
-![Pen Test playbook](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/pentest.yml “Pentration Docker Container Playbook”) 
-![Filebeat playbook](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/roles/filebeat-playbook.yml “Filebeat Playbook”) 
-![Metricbeat playbook](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/roles/metricbeat-playbook.yml “Metricbeat Playbook”) 
-![Filebeat Config file](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/files/filebeat-config.yml “Filebeat Configuration File”) 
-![Metricbeat Config file](https://github.com/rjcarlson/ELK_Stack_Project/Ansible/files/metricbeat-config.yml “Metricbeat Configuration File”) 
+![DVWA playbook](./Ansible/dvwa-playbook.yml “DVWA Playbook”) 
+![ELK playbook](./Ansible/install-elk.yml “ELK Playbook”) 
+![Pen Test playbook](./ELK_Stack_Project/Ansible/pentest.yml “Pentration Docker Container Playbook”) 
+![Filebeat playbook](./ELK_Stack_Project/Ansible/roles/filebeat-playbook.yml “Filebeat Playbook”) 
+![Metricbeat playbook](./ELK_Stack_Project/Ansible/roles/metricbeat-playbook.yml “Metricbeat Playbook”) 
+![Filebeat Config file](./ELK_Stack_Project/Ansible/files/filebeat-config.yml “Filebeat Configuration File”) 
+![Metricbeat Config file](./ELK_Stack_Project/Ansible/files/metricbeat-config.yml “Metricbeat Configuration File”) 
 
 
 
