@@ -59,7 +59,7 @@ Only the jump-box machine can accept connections from the Internet. Access to th
 ![Jump Box accessible IP](./Diagrams/jump-box_accessible_IP.PNG "Jump Box Accessible IP")
 
 Machines within the network can only be accessed by my computer via the jump box.
-![Inbound Security Rule for Kibana](./Diagrams/inbound_security_rules_kibana.png "Inbound Security Rule Kibana")
+![Inbound Security Rule for Kibana](./Diagrams/inbound_security_rules_kibana.PNG "Inbound Security Rule Kibana")
 
 A summary of the access policies in place can be found in the table below.
 
@@ -84,7 +84,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ELK Docker ps output](./Diagrams/docker_ps_output.png "ELK Docker PS output")
+![ELK Docker ps output](./Diagrams/docker_ps_output.PNG "ELK Docker PS output")
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
