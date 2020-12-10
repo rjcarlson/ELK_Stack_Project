@@ -118,3 +118,6 @@ The following playbooks are in the Ansible/roles folder:
 These playbooks refers configuration files in the Ansible/files folder
 
 You navigate to the ELK server public IP:5601/app/kibana to make sure all services are up and running and logging is in progress.
+
+As of Dec 9th, the plan is to create a single yaml file containing all the current separate pieces.  This will give the ability to run just the one playbook when 'starting from scratch'.
+
