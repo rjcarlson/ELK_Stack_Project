@@ -10,15 +10,15 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 ![ELK playbook](./Ansible/install-elk.yml "ELK Playbook") 
 
-![Pen Test playbook](./ELK_Stack_Project/Ansible/pentest.yml "Pentration Docker Container Playbook") 
+![Pen Test playbook](./Ansible/pentest.yml "Pentration Docker Container Playbook") 
 
-![Filebeat playbook](./ELK_Stack_Project/Ansible/roles/filebeat-playbook.yml "Filebeat Playbook") 
+![Filebeat playbook](./Ansible/roles/filebeat-playbook.yml "Filebeat Playbook") 
 
-![Metricbeat playbook](./ELK_Stack_Project/Ansible/roles/metricbeat-playbook.yml "Metricbeat Playbook") 
+![Metricbeat playbook](./Ansible/roles/metricbeat-playbook.yml "Metricbeat Playbook") 
 
-![Filebeat Config file](./ELK_Stack_Project/Ansible/files/filebeat-config.yml "Filebeat Configuration File") 
+![Filebeat Config file](./Ansible/files/filebeat-config.yml "Filebeat Configuration File") 
 
-![Metricbeat Config file](./ELK_Stack_Project/Ansible/files/metricbeat-config.yml "Metricbeat Configuration File") 
+![Metricbeat Config file](./Ansible/files/metricbeat-config.yml "Metricbeat Configuration File") 
 
 
 
