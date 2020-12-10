@@ -6,13 +6,13 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, running select playbook yaml files may be used to install only certain pieces of it, such as Filebeat.
 
-![DVWA playbook](./ansible/dvwa-playbook.yml “DVWA Playbook”) 
-![ELK playbook](./ansible/install-elk.yml “ELK Playbook”) 
-![Pen Test playbook](./ansible/pentest.yml “Pentration Docker Container Playbook”) 
-![Filebeat playbook](./ansible/roles/filebeat-playbook.yml “Filebeat Playbook”) 
-![Metricbeat playbook](./ansible/roles/metricbeat-playbook.yml “Metricbeat Playbook”) 
-![Filebeat Config file](./ansible/files/filebeat-config.yml “Filebeat Configuration File”) 
-![Metricbeat Config file](./ansible/files/metricbeat-config.yml “Metricbeat Configuration File”) 
+![DVWA playbook](./Ansible/dvwa-playbook.yml “DVWA Playbook”) 
+![ELK playbook](./Ansible/install-elk.yml “ELK Playbook”) 
+![Pen Test playbook](./Ansible/pentest.yml “Pentration Docker Container Playbook”) 
+![Filebeat playbook](./Ansible/roles/filebeat-playbook.yml “Filebeat Playbook”) 
+![Metricbeat playbook](./Ansible/roles/metricbeat-playbook.yml “Metricbeat Playbook”) 
+![Filebeat Config file](./Ansible/files/filebeat-config.yml “Filebeat Configuration File”) 
+![Metricbeat Config file](./Ansible/files/metricbeat-config.yml “Metricbeat Configuration File”) 
 
 
 
@@ -49,11 +49,11 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump-box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses: 
-![Inbound Security Rules](./diagrams/inbound_security_rules.png “Inbound Security Rules”)
-![Jump Box accessible IP](./diagrams/jump-box_accessible_IP.png “Jump Box Accessible IP”)
+![Inbound Security Rules](./Diagrams/inbound_security_rules.png “Inbound Security Rules”)
+![Jump Box accessible IP](./Diagrams/jump-box_accessible_IP.png “Jump Box Accessible IP”)
 
 Machines within the network can only be accessed by my computer via the jump box.
-![Inbound Security Rule for Kibana](./diagrams/inbound_security_rules_kibana.png “Inbound Security Rule Kibana”)
+![Inbound Security Rule for Kibana](./Diagrams/inbound_security_rules_kibana.png “Inbound Security Rule Kibana”)
 
 A summary of the access policies in place can be found in the table below.
 
@@ -78,7 +78,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![ELK Docker ps output](./diagrams/docker_ps_output.png “ELK Docker PS output”)
+![ELK Docker ps output](./Diagrams/docker_ps_output.png “ELK Docker PS output”)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -101,14 +101,14 @@ SSH into the control node and follow the steps below:
 - Update the yaml file to include the modules to install and target VMs
 - Run the playbook, then navigate to target VM to check that the installation worked as expected.
 
-Here is a list of the ansible playbooks, which can be found in the ansible folder:
+Here is a list of the ansible playbooks, which can be found in the Ansible folder:
 - dvwa-playbook.yml (for webservers vm)
 - install-elk.yml (for elk vm)
 - pentest.yml (for pentration testing vm)
 
-The following playbooks are in the ansible/roles folder:
+The following playbooks are in the Ansible/roles folder:
 - filebeat-playbook.yml (for webserver vms)
 - metricbeat-playbook.yml (for webservers vms)
-These playbooks refers configuration files in the ansible/files folder
+These playbooks refers configuration files in the Ansible/files folder
 
 You navigate to the ELK server public IP:5601/app/kibana to make sure all services are up and running and logging is in progress.
