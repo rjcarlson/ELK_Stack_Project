@@ -69,12 +69,12 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because this provides all web servers in the load pool will be configured exactly the same while eliminating manual errors. 
 
 The playbook implements the following tasks: 
-	- installs docker 
-	- installs python3 
-	- installs and launches docker via python 
-	- increases the virtual memory 
-	- downloads and launches ELK image 
-	- publishes ports used
+- installs docker 
+- installs python3 
+- installs and launches docker via python 
+- increases the virtual memory 
+- downloads and launches ELK image 
+- publishes ports used
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -82,16 +82,16 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-	- Web1 (10.0.0.7) 
-	- Web2 (10.0.0.8)
+- Web1 (10.0.0.7) 
+- Web2 (10.0.0.8)
 
 We have installed the following Beats on these machines:
-	- Web1 (10.0.0.7) 
-	- Web2 (10.0.0.8)
+- Web1 (10.0.0.7) 
+- Web2 (10.0.0.8)
 
 These Beats allow us to collect the following information from each machine:
-	- Filebeats gathers the log files from the web servers and then forwards them to the ELK server for storage and analysis.  Once on the ELK server, the data can b e analyzed for web functionality and intrusion detection. 
-	- Metricbeats monitors the VMs HW and system files.  This will help administrators determine if/when additional resources are needed to ensure the web applications run efficiently.  Also, it will allow administrators monitor the server systems for possible intrusion.    
+- Filebeats gathers the log files from the web servers and then forwards them to the ELK server for storage and analysis.  Once on the ELK server, the data can b e analyzed for web functionality and intrusion detection. 
+- Metricbeats monitors the VMs HW and system files.  This will help administrators determine if/when additional resources are needed to ensure the web applications run efficiently.  Also, it will allow administrators monitor the server systems for possible intrusion.    
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
